@@ -1,3 +1,4 @@
+\
 // ROI Calculator Engine
 (function() {
   function roiFmtM(n) {
@@ -160,7 +161,7 @@
   };
 })();
 
-const ui-cursor = document.getElementById('cursor');
+const cursor = document.getElementById('cursor');
 document.addEventListener('mousemove', e => {
   cursor.style.left = e.clientX + 'px';
   cursor.style.top = e.clientY + 'px';
